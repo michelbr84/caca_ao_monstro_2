@@ -1,0 +1,41 @@
+caca_ao_monstro_2/
+├── src/
+│   ├── game.py
+│   ├── player.py
+│   ├── monster.py
+│   ├── grid.py
+│   ├── utils.py
+│   ├── assets_manager.py
+│   ├── sounds_manager.py
+│   ├── display_manager.py
+│   └── __init__.py
+├── assets/
+│   ├── images/
+│   │   ├── player.png
+│   │   ├── monster.png
+│   │   ├── grid_background.png
+│   │   ├── capture_effect.png
+│   │   └── escape_effect.png
+│   └── sounds/
+│       ├── capture_sound.wav
+│       ├── escape_sound.wav
+│       ├── move_sound.wav
+│       └── background_music.mp3
+├── tests/
+│   ├── test_game.py
+│   ├── test_player.py
+│   ├── test_monster.py
+│   ├── test_grid.py
+│   ├── test_assets_manager.py
+│   ├── test_sounds_manager.py
+│   ├── test_display_manager.py
+│   └── __init__.py
+├── assets_config/
+│   ├── assets_config.json
+│   └── sounds_config.json
+├── docs/
+│   └── estrutura.txt
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── setup.py
